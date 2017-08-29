@@ -73,3 +73,48 @@ justify-content: center;
 .menu > li > a:hover {
   text-decoration: underline;
 }
+
+li.asideMenu {
+  flex: 0 1 183px;
+  font-size: 12px;
+}
+
+.asideContainer {
+  width: 181px;
+  margin-top: 5px;
+}
+
+.iconsMenu {
+ display: inline-block;
+ width: 79px;
+ border-right: 1px solid rgb(238, 238, 238);;
+ text-align: center;
+}
+
+.iconsMenu img {
+  width: 16px;
+  height: 13px;
+}
+
+.iconsMenu2 img {
+  width: 16px;
+  height: 13px;
+}
+
+.iconsMenu2 {
+ display: inline-block;
+ width: 89px;
+ text-align: center;
+}
+
+.descIcon {
+  display: inline-block;
+  width: 20px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 3px;
+  background: rgb(126, 126, 126);
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.9rem;
+}
