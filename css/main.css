@@ -13,7 +13,6 @@ body {
   flex-wrap: wrap;
   width: 100%;
   background: rgb(36, 36, 36);
-
 }
 
 .textLogo {
@@ -39,4 +38,83 @@ body {
    font-size: 1.1rem;
     padding: 20px;
     text-align: center;
+}
+
+.navigation {
+  background: #fff;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.menu > li {
+  flex: 0 1 150px;
+  padding: 14px 10px;
+  border-right: 1px solid rgb(238, 238, 238);;
+}
+
+.menu > li:first-child {
+   border-left: 1px solid rgb(238, 238, 238);;
+}
+
+.menu > li > a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  text-decoration: underline;
+}
+
+li.asideMenu {
+  flex: 0 1 183px;
+  font-size: 12px;
+}
+
+.asideContainer {
+  width: 181px;
+  margin-top: 5px;
+}
+
+.iconsMenu {
+ display: inline-block;
+ width: 79px;
+ border-right: 1px solid rgb(238, 238, 238);;
+ text-align: center;
+}
+
+.iconsMenu img {
+  width: 16px;
+  height: 13px;
+}
+
+.iconsMenu2 img {
+  width: 16px;
+  height: 13px;
+}
+
+.iconsMenu2 {
+ display: inline-block;
+ width: 89px;
+ text-align: center;
+}
+
+.descIcon {
+  display: inline-block;
+  width: 20px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 3px;
+  background: rgb(126, 126, 126);
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.9rem;
 }
