@@ -1,3 +1,5 @@
+(function() {
+
 var items = document.querySelectorAll(".topDescItems h1 a"),
         topNav = document.querySelectorAll("ul.topNav li span");
 
@@ -27,3 +29,4 @@ function active(e) {
 for(item of items) {
     item.addEventListener("click", active, false);
 }
+})();
