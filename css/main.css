@@ -286,3 +286,34 @@ p {
 .topDescItems a:hover{
   text-decoration: underline;
 }
+
+/*Specials section*/
+.specialsSection {
+  background: rgb(36, 36, 36);
+}
+
+.specialsContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+.specialsImgs {
+  position: relative;
+  flex: 0 1 260px;
+  margin: 10px;
+}
+
+.aboutImg {
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+ width: 210px;
+ padding: 10px;
+  text-align: center;
+  background: rgba(36, 36, 36, 0.9);
+  text-transform: uppercase;
+}
