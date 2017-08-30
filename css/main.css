@@ -297,7 +297,7 @@ p {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
+  padding: 10px 0;
 }
 .specialsImgs {
   position: relative;
@@ -316,4 +316,15 @@ p {
   text-align: center;
   background: rgba(36, 36, 36, 0.9);
   text-transform: uppercase;
+}
+
+/*rwd queries*/
+@media (max-width: 800px) {
+  .top {display: block; text-align: center;};
+  .topImg {  width: 100%; }
+  .topImg img { width: 100%; }
+}
+
+@media(max-width: 960px) {
+  .topNavContainer {display: none;}
 }
